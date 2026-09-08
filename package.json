@@ -1,0 +1,17 @@
+{
+  "name": "telugu-secret-chat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "install:client": "npm install --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
