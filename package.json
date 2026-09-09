@@ -7,7 +7,7 @@
     "start": "node server.js",
     "dev": "node server.js",
     "install:client": "npm install --prefix client",
-    "build": "npm run build --prefix client"
+    "build": "cd client && npm install && npm run build"
   },
   "dependencies": {
     "cors": "^2.8.6",
